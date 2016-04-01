@@ -11,7 +11,7 @@
 #' @examples
 #' unnamed_cars <- name_in(mtcars, "car_name")
 #'
-#' cars <- name_out(unnamed_cars, "car_name)
+#' cars <- name_out(unnamed_cars, "car_name")
 name_in <- function(d, col_name = "name") {
   d[[col_name]] <- rownames(d)
   rownames(d) <- NULL
