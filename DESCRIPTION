@@ -1,10 +1,12 @@
 Package: dfname
 Type: Package
 Title: Name and Unname Data Frames
+Version: 0.1.0
 Authors@R: person("Matthew", "Lincoln", email = "matthew.d.lincoln@gmail.com", role = c("aut", "cre"))
-Description: Pipe-friendly methods to move data.frame rownames to column and back again
+Description: Pipe-friendly methods to move data.frame rownames to column and
+    back again
 License: MIT
 LazyData: TRUE
 Suggests:
-  dplyr,
-  testthat
+    testthat
+RoxygenNote: 5.0.1
