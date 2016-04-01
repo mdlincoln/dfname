@@ -1,0 +1,10 @@
+Package: dfname
+Type: Package
+Title: Name and Unname Data Frames
+Authors@R: person("Matthew", "Lincoln", email = "matthew.d.lincoln@gmail.com", role = c("aut", "cre"))
+Description: Pipe-friendly methods to move data.frame rownames to column and back again
+License: MIT
+LazyData: TRUE
+Suggests:
+  dplyr,
+  testthat
