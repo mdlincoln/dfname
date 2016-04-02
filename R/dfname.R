@@ -19,6 +19,7 @@ name_in <- function(d, col_name = "name") {
 }
 
 #' @rdname name_in
+#' @export
 name_out <- function(d, col_name) {
   rownames(d) <- d[[col_name]]
   d[[col_name]] <- NULL
