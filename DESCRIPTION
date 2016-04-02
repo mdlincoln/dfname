@@ -5,7 +5,7 @@ Version: 0.1.0
 Authors@R: person("Matthew", "Lincoln", email = "matthew.d.lincoln@gmail.com", role = c("aut", "cre"))
 Description: Pipe-friendly methods to move data.frame rownames to column and
     back again
-License: MIT
+License: MIT + file LICENSE
 LazyData: TRUE
 Suggests:
     testthat
